@@ -3,29 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>اطلب الطعام اونلاين</title>
+    <title>Document</title>
   </head>
-  <body style="background-color: rgb(39, 39, 39); color: white; font-size: 25px">
+  <body
+    style="background-color: rgb(39, 39, 39); color: white; font-size: 25px"
+  >
     <div>
-      <h1 style="margin: 20px 0 0 0; color: red;">اطلب اونلاين</h1>
+      <h1 style="margin: 20px 0 0 0; color: red">اطلب اونلاين</h1>
       <br />
       <br />
       <div>
-        <label style="color: chartreuse;" for="">ما هو اسمك </label>
+        <label style="color: chartreuse" for="">ما هو اسمك </label>
         <br />
         <input type="text" />
       </div>
       <br />
       <br />
       <div>
-        <label style="color: chartreuse;"for="">ادخل رقم الهاتف </label>
+        <label style="color: chartreuse" for="">ادخل رقم الهاتف </label>
         <br />
         <input type="text" />
       </div>
       <br />
       <br />
       <div>
-        <label style="color: chartreuse;"for="">المنطقة </label>
+        <label style="color: chartreuse" for="">المنطقة </label>
         <select>
           <option value="">شارع فلسطين</option>
           <option value="">البنوك</option>
@@ -48,7 +50,7 @@
       <br />
       <br />
       <div>
-        <label style="color: chartreuse;"for="">وصف بسيط للعنوان </label>
+        <label style="color: chartreuse" for="">وصف بسيط للعنوان </label>
         <br />
         <textarea
           name=""
@@ -63,80 +65,164 @@
       <br />
       <br />
       <div>
-        <label style="color: lightskyblue;" for="">اختر ما يناسبك من قائمتنا </label>
+        <label style="color: lightskyblue" for=""
+          >اختر ما يناسبك من قائمتنا
+        </label>
         <br />
         <br />
         <div>
-          <label for="">مشويات اللحوم</label>
-          <br />
+          <p style="color: red" for="">مشويات اللحوم</p>
           <label for="">كباب لحم</label>
-          <input type="checkbox" />
+          <input type="number" max="100" style="width: 40px" />
           <label for="">تكة لحم</label>
-          <input type="checkbox" />
+          <input type="number" max="100" style="width: 40px" />
           <label for="">كباب فلوجي </label>
-          <input type="checkbox" />
+          <input type="number" max="100" style="width: 40px" />
           <br />
           <br />
           <label for="">كفتة</label>
-          <input type="checkbox" />
+          <input type="number" max="100" style="width: 40px" />
           <label for="">كباب اورفلي</label>
-          <input type="checkbox" />
+          <input type="number" max="100" style="width: 40px" />
           <label for="">ضلوع</label>
-          <input type="checkbox" />
+          <input type="number" max="100" style="width: 40px" />
         </div>
         <br />
-        <br />
         <div>
-          <label for="">مشويات الدجاج</label>
-          <br />
+          <p style="color: red" for="">مشويات الدجاج</p>
           <label for="">كباب دجاج</label>
-          <input type="checkbox" />
+          <input type="number" max="100" style="width: 40px" />
           <label for="">تكة دجاج</label>
-          <input type="checkbox" />
+          <input type="number" max="100" style="width: 40px" />
           <label for="">اجنحة</label>
-          <input type="checkbox" />
+          <input type="number" max="100" style="width: 40px" />
           <br />
           <br />
           <label for="">دجاج مسحب</label>
-          <input type="checkbox" />
+          <input type="number" max="100" style="width: 40px" />
           <label for="">نصف مسحب</label>
-          <input type="checkbox" />
+          <input type="number" max="100" style="width: 40px" />
         </div>
         <br />
-        <br />
         <div>
-          <label for="">المطبخ الشرقي</label>
-          <br />
+          <p style="color: red" for="">المطبخ الشرقي</p>
           <label for="">دولمة</label>
-          <input type="checkbox" />
+          <input type="number" max="100" style="width: 40px" />
           <label for="">دجاجة على التمن</label>
-          <input type="checkbox" />
+          <input type="number" max="100" style="width: 40px" />
           <label for="">دجاجة ناشفة</label>
-          <input type="checkbox" />
+          <input type="number" max="100" style="width: 40px" />
           <br />
           <br />
           <label for="">قوزي</label>
-          <input type="checkbox" />
+          <input type="number" max="100" style="width: 40px" />
           <label for="">نصف دجاجة على التمن</label>
-          <input type="checkbox" />
+          <input type="number" max="100" style="width: 40px" />
           <label for="">مقلوبة لحم</label>
-          <input type="checkbox" />
+          <input type="number" max="100" style="width: 40px" />
           <br />
           <br />
           <label for="">مقلوبة دجاج</label>
-          <input type="checkbox" />
+          <input type="number" max="100" style="width: 40px" />
           <label for="">مندي دجاج</label>
-          <input type="checkbox" />
+          <input type="number" max="100" style="width: 40px" />
           <label for="">مندي لحم</label>
-          <input type="checkbox" />
+          <input type="number" max="100" style="width: 40px" />
         </div>
       </div>
       <br />
       <br />
+      <div>
+      <p for="">وقت الطلب</p>
+      <label for="">متى تريد الطلب : </label>
+      <label for="">اليوم</label>
+      <input type="radio" name="taim" />
+      <label for="">غدا</label>
+      <input type="radio" name="taim" />
+      <label for="">اخرى</label>
+      <input type="radio" name="taim" />
       <br />
-      <button style="font-size: 25px; padding: 8px 16px;">ارسال الطلب</button>
+      <label for="">وقت اخر للطلب:</label>
+      <input type="date" />
+      </div>
       <br />
       <br />
+      <br />
+      <button style="font-size: 25px; padding: 8px 16px">ارسال الطلب</button>
+      <br />
+      <br />
+      <div>
+        <p for="">استبيان المطعم</p>
+        <label for="">جودة الطعام : </label>
+        <label style="color: crimson" for=""> سيئة</label>
+        <input type="radio" name="food" />
+        <label style="color: lightsalmon" for=""> جيدة</label>
+        <input type="radio" name="food" />
+        <label style="color: chartreuse" for=""> ممتازة</label>
+        <input type="radio" name="food" />
+        <br />
+        <br />
+        <label for="">سعر الوجبة مقارنة بالجودة و الخدمة : </label>
+        <label style="color: crimson" for=""> سيئة</label>
+        <input type="radio" name=" price" />
+        <label style="color: lightsalmon" for=""> جيدة</label>
+        <input type="radio" name=" price" />
+        <label style="color: chartreuse" for=""> ممتازة</label>
+        <input type="radio" name=" price" />
+        <br />
+        <br />
+        <label for="">تنوع قائمة الطعام : </label>
+        <label style="color: crimson" for=""> سيئة</label>
+        <input type="radio" name=" mnue" />
+        <label style="color: lightsalmon" for=""> جيدة</label>
+        <input type="radio" name=" mnue" />
+        <label style="color: chartreuse" for=""> ممتازة</label>
+        <input type="radio" name=" mnue" />
+        <br />
+        <br />
+        <label for="">سرعة تقديم الطلب : </label>
+        <label style="color: crimson" for=""> سيئة</label>
+        <input type="radio" name=" fast" />
+        <label style="color: lightsalmon" for=""> جيدة</label>
+        <input type="radio" name=" fast" />
+        <label style="color: chartreuse" for=""> ممتازة</label>
+        <input type="radio" name=" fast" />
+        <br />
+        <br />
+        <label for="">الموسيقى : </label>
+        <label style="color: crimson" for=""> سيئة</label>
+        <input type="radio" name=" musec" />
+        <label style="color: lightsalmon" for=""> جيدة</label>
+        <input type="radio" name=" musec" />
+        <label style="color: chartreuse" for=""> ممتازة</label>
+        <input type="radio" name=" musec" />
+        <br />
+        <br />
+        <label for="">النظافة : </label>
+        <label style="color: crimson" for=""> سيئة</label>
+        <input type="radio" name=" musec" />
+        <label style="color: lightsalmon" for=""> جيدة</label>
+        <input type="radio" name=" musec" />
+        <label style="color: chartreuse" for=""> ممتازة</label>
+        <input type="radio" name=" musec" />
+        <br />
+        <br />
+        <p for="">ما هو قسمك المفضل</p>
+        <label for="">مشويات اللحوم</label>
+        <input type="checkbox" name="" id="">
+        <label for="">مشويات الدجاج</label>
+        <input type="checkbox" name="" id="">
+        <label for="">المطبخ الشرقي</label>
+        <input type="checkbox" name="" id="">
+      </div>
+        <br />
+        <br />
+        <button style="font-size: 25px; padding: 8px 16px">
+          ارسال التقييم
+        </button>
+        <br />
+        <br />
+        <br />
     </div>
   </body>
 </html>
